@@ -3,63 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <title>goit-markup-hw-01</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=" ./css/style.css" />
   </head>
-  <body>
+  <body class="body">
     <!--Header section-->
-    <header>
+    <header class="header">
       <div>
-        <a href="#"><h1>WebStudio</h1></a>
+        <a href="#" class="logo"
+          ><h1 class="logotext"><span>Web</span>Studio</h1></a
+        >
       </div>
-      <nav>
+      <nav class="header__navigation">
         <ul>
           <li><a href="index.html">Studio</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
       </nav>
-      <div><a href="mail_info@devstudio.com">info@devstudio.com</a></div>
-      <div><a href="tel:+1212-772-4150">+1 212-772-4150</a></div>
+      <div class="header__info">
+        <a href="mail_info@devstudio.com"><span>info@devstudio.com</span></a>
+        <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+      </div>
     </header>
     <!--Pagina web-->
     <main>
       <!--Hero section-->
-      <section>
-        <h2>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h2>
-        <button type="submit">
+      <section class="header__bookme">
+        <h2 class="header__bookme__slogan">
+          EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
+        </h2>
+        <button class="header__booking" type="submit">
           <h4>Request our service</h4>
         </button>
       </section>
       <!--About-->
-      <section>
+      <section class="--about--">
         <!--div cu info-->
         <div>
           <ul>
-            <h4>ATTENTION TO DETAILS</h4>
-            <p>
+            <h4 class="about__title1">ATTENTION TO DETAILS</h4>
+            <p class="about__title1__p1">
               We go into all the details and processes<br />
               your business to develop a<br />
               customized solution.
             </p>
           </ul>
           <ul>
-            <h4>PUNCTUALITY</h4>
-            <p>
+            <h4 class="about__title2">PUNCTUALITY</h4class>
+            <p class="about__title2__p2">
               With us, you can feel safe and secure.<br />
               An important principle of the company:<br />
               respect your time and deadlines.
             </p>
           </ul>
           <ul>
-            <h4>PLANNING</h4>
-            <p>
+            <h4 class="about__title3">PLANNING</h4>
+            <p class="about__title3__p3">
               You will be able to observe and <br />
               participate in every phase of solution <br />
               and implementation.
             </p>
           </ul>
           <ul>
-            <h4>MODERN TECHNOLOGIES</h4>
-            <p>
+            <h4 class="about__title4">MODERN TECHNOLOGIES</h4>
+            <p class="about__title4__p4">
               We use innovative tools to solve<br />
               assigned tasks. It's time to simplify work<br />
               processes.
